@@ -1,9 +1,15 @@
 name = "XMLWalker"
 uuid = "9cd7548c-8553-4cf3-b148-d77f511bbfb9"
 authors = ["Roman Mironov"]
-version = "1.0.0-DEV"
+version = "0.1.0"
+
+[deps]
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
 [compat]
+InteractiveUtils = "1.11.0"
+OrderedCollections = "1.8.1"
 julia = "1.6.7"
 
 [extras]
